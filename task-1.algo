@@ -1,0 +1,23 @@
+ALGORITHM circular_permutation
+
+VAR
+
+    x, y, z, aux : INTEGER;
+    
+BEGIN
+    // write message on screen for the user
+    Write("Give the x number");
+    // read the variable from keyboard
+    Read(x);
+    Write("Give the y number");
+    Read(y);
+    Write("Give the z number");
+    Read(z);
+
+    //permutation
+    aux := x;
+    x := y;
+    y := z;
+    z:= aux;
+
+END
